@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Fuente';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fuente'), local('Fuente'), url('fuente.woff') format('woff');
+}
+
+
+body {
+    font-family: 'Fuente';
+    font-weight: normal;;
+    color: black;
+    background-image: url('fondo.png');
+}
+
+
+.bien,.mal {display:inline;margin-left:10px;width:100px;background-repeat: no-repeat; padding-left:20px;}
+.bien {background-image: url('ok.png');}
+.mal {background-image: url('mal.png');}
+
+.calcular {background-image: url('calc.jpg'); background-repeat: no-repeat; padding-left:40px; border-style:outset;}
+.nivel {background-color: white; font-family:'Fuente'; margin-left: 40px; border-style: outset;}
+.valor {background-color: white; font-family:'Fuente'; border-style:inset;}
+.margen{margin-left: 40px;}
+div{margin-top: 20px;
+    margin-left: 30px;}
+
